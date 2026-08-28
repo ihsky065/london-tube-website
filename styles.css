@@ -11,7 +11,8 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 15px;
+  align-items: center;
+  gap: 25px;
   background-color: navy;
   color: white;
   padding: 10px;
