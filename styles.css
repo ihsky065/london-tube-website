@@ -54,8 +54,10 @@ button:hover {
   background-color: navy;
 }
 
-table, thead, tbody, tr, td {
+table, thead, tbody, tr, th, td {
   margin-top: 20px;
   border: 1px solid black;
   padding: 12px;
+  border-radius: 20px;
+  border-collapse: collapse;
 }
