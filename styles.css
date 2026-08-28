@@ -5,6 +5,8 @@ body {
   display: flex;
   flex-direction: column;
   scroll-behavior: auto;
+  background-image: url('images/mobile-london-tube-arrival.jpg');
+  background-size: cover;
 }
 
 header {
@@ -61,6 +63,7 @@ table, thead, tbody, tr, th, td {
   border: 1px solid black;
   padding: 12px;
   border-collapse: collapse;
+  background-color: white;
 }
 
 .first-table {
