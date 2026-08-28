@@ -4,6 +4,7 @@ body {
   text-align: center;
   display: flex;
   flex-direction: column;
+  scroll-behavior: auto;
 }
 
 header {
@@ -69,4 +70,12 @@ th {
 h3 {
   font-size: 22px;
   margin-top: 50px;
+}
+
+.reference-table th, td {
+  width: 100px;
+}
+
+.reference-table th {
+  background-color: blue;
 }
