@@ -128,6 +128,12 @@ footer {
   }
   .container {
     display: grid;
-
+    grid-template-columns: repeat(3, 350px);
+  }
+  .first-container, .second-container, .straight-line {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 }
