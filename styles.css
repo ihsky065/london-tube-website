@@ -147,4 +147,17 @@ footer {
     height: 100%;
     margin-left: 180px;
   }
+  .first-container, .first-table {
+    width: 400px;
+  }
+  .second-container {
+    align-self: flex-start;
+    height: 100%;
+  }
+  .second-container table {
+    height: 100%;
+  }
+  h3 {
+    margin-top: 0px;
+  }
 }
