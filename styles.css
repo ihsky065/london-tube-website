@@ -6,7 +6,7 @@ body {
   flex-direction: column;
   scroll-behavior: auto;
   background-image: url('images/mobile-london-tube-arrival.jpg');
-  background-color: rgb(255, 255, 255, 0.4);
+  background-color: rgb(255, 255, 255, 0.7);
   background-blend-mode: lighten;
   background-size: cover;
   overflow-x: hidden;
