@@ -25,6 +25,24 @@ header {
   margin-top: -10px;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: repeat(3, 350px);
+  align-items: center;
+}
+
+.first-container, .second-container, .straight-line {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.straight-line {
+  display: none;
+}
+
 #subtitle {
   font-size: 25px;
   margin-top: 20px;
@@ -103,13 +121,13 @@ footer {
 }
 
 
-@media only screen and (max-width: 1920px) {
+@media screen and (min-width: 500px) {
   body {
     background-image: url('images/london-tube-arrival.jpg');
     background-position: center;
   }
   .container {
     display: grid;
-    grid-template-columns: repeat(2, 600px);
+
   }
 }
