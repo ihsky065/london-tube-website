@@ -108,4 +108,8 @@ footer {
     background-image: url('images/london-tube-arrival.jpg');
     background-position: center;
   }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 600px);
+  }
 }
