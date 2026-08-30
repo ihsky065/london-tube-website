@@ -129,7 +129,11 @@ footer {
   header {
     height: 55px;
   }
+  #subtitle {
+  margin-top: 0px;
+}
   .container {
+    margin-top: 30px;
     display: grid;
     grid-template-columns: repeat(3, 350px);
   }
