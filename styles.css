@@ -51,6 +51,7 @@ header {
 p {
   font-weight: bold;
   margin-top: 1px;
+  width: 80%;
 }
 
 input {
@@ -88,7 +89,7 @@ table, thead, tbody, tr, th, td {
 }
 
 .first-table {
-  width: 380px;
+  width: 350px;
 }
 
 th {
@@ -163,5 +164,8 @@ footer {
   }
   h3 {
     margin-top: 0px;
+  }
+  p {
+    width: 100%;
   }
 }
