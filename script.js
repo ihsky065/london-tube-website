@@ -10,3 +10,13 @@ async function fetchTubeArrival () {
         throw new Error('Error fetching tube arrival data');
     }
 }
+
+function displayTubeArrival () {
+    fetchTubeArrival ()
+    .then((arrivalData) => {
+        firstTbody.innerHTML = formatArrivalData (arrivalData);
+    })
+    .catch ((error) => {
+        console.log('Error', error);
+    })
+}
