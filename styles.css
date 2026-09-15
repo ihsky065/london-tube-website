@@ -52,6 +52,7 @@ p {
   font-weight: bold;
   margin-top: 1px;
   width: 80%;
+  line-height: 25px;
 }
 
 input {
