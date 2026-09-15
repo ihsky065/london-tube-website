@@ -14,9 +14,12 @@ async function fetchTubeArrival () {
 function displayTubeArrival () {
     fetchTubeArrival ()
     .then((arrivalData) => {
-        firstTbody.innerHTML = formatArrivalData (arrivalData);
+        testing.innerHTML = formatArrivalData (arrivalData);
+        console.log(arrivalData);
     })
     .catch ((error) => {
         console.log('Error', error);
     })
 }
+
+displayTubeArrival ();
