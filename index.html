@@ -21,49 +21,46 @@
       <p>Please enter any ID based on the given location list</p>
       <p style="font-weight: normal;">The arrival information in the table will be displayed once you enter an ID into the field.</p>
 
-
-      <input type="number" id="input-box" placeholder="Enter any ID" required>
-      <button onclick="showArrivals()" id="show-button">Show Arrivals</button>
-
+      <input type="number" id="input-box" placeholder="Enter any ID" max="8">
+      <button type="button" onclick="showArrivals()">Show Arrivals</button>
       
-      <table class="first-table">
+      <table class="first-table" id="table">
         <thead>
           <tr>
             <th>Line No</th>
             <th>Next Arrival</th>
             <th>Operator</th>
-          </tr>
+          </tr> 
         </thead>
-        <div id="tbody">
-          <tbody class="first-tbody">
+           <tbody class="tbody">
             <tr>
               <td>N/A</td>
               <td>N/A</td>
               <td>N/A</td>
             </tr>
           </tbody>
-          <tbody class="first-tbody">
+          <tbody class="tbody">
             <tr>
               <td>N/A</td>
               <td>N/A</td>
               <td>N/A</td>
             </tr>
           </tbody>
-          <tbody class="first-tbody">
+          <tbody class="tbody">
             <tr>
               <td>N/A</td>
               <td>N/A</td>
               <td>N/A</td>
             </tr>
           </tbody>
-          <tbody class="first-tbody">
+          <tbody class="tbody">
             <tr>
               <td>N/A</td>
               <td>N/A</td>
               <td>N/A</td>
             </tr>
           </tbody>
-          <tbody class="first-tbody">
+          <tbody class="tbody">
             <tr>
               <td>N/A</td>
               <td>N/A</td>
@@ -73,8 +70,6 @@
         </div>
       </table>
     </div>
-
-    <div id="testing"></div>
 
     <div class="straight-line"></div>
   
