@@ -217,7 +217,7 @@ function displayTubeArrival(boxValue) {
                     tr.innerHTML = `
                     <tr>
                     <td>${detail.line_no}</td>
-                    <td>${detail.next_arrival_minutes}</td>
+                    <td>${detail.next_arrival_minutes <= 0 ? "Arriving" : detail.next_arrival_minutes}</td>
                     <td>${detail.operator}</td>
                     </tr>
                     `;
